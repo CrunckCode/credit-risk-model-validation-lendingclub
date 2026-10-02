@@ -1,0 +1,669 @@
+{
+  "data_source": "LendingClub public 2007-2014",
+  "models": {
+    "sc_full": {
+      "kind": "sc",
+      "n_features": 26,
+      "features": [
+        "loan_amnt",
+        "term_m",
+        "int_rate",
+        "installment",
+        "grade",
+        "sub_grade",
+        "emp_years",
+        "home_ownership",
+        "annual_inc",
+        "verification_status",
+        "purpose",
+        "addr_state",
+        "dti",
+        "delinq_2yrs",
+        "inq_last_6mths",
+        "mths_since_last_delinq",
+        "mths_since_last_record",
+        "open_acc",
+        "pub_rec",
+        "revol_bal",
+        "revol_util",
+        "total_acc",
+        "initial_list_status",
+        "credit_age_m",
+        "loan_to_inc",
+        "pti"
+      ],
+      "margin_shift": 0.0,
+      "scorecard_variables": [
+        "sub_grade",
+        "home_ownership",
+        "annual_inc",
+        "purpose",
+        "addr_state",
+        "dti",
+        "inq_last_6mths",
+        "revol_util",
+        "loan_to_inc"
+      ],
+      "iv": {
+        "sub_grade": 0.24398583781753055,
+        "home_ownership": 0.020323664667546367,
+        "annual_inc": 0.05526486223364528,
+        "purpose": 0.09090743229840999,
+        "addr_state": 0.029657114375519426,
+        "dti": 0.02386266391639909,
+        "inq_last_6mths": 0.08803722321754165,
+        "revol_util": 0.045055508664530265,
+        "loan_to_inc": 0.05283769863730554
+      },
+      "vif": {
+        "sub_grade": 1.4474888006254305,
+        "home_ownership": 1.1299881444929745,
+        "annual_inc": 1.2560339224996886,
+        "purpose": 1.0134063133020055,
+        "addr_state": 1.0039047977059194,
+        "dti": 1.0947598034542612,
+        "inq_last_6mths": 1.1019877695627531,
+        "revol_util": 1.319032872990811,
+        "loan_to_inc": 1.2098447495040114
+      },
+      "pvalues": {
+        "sub_grade": 2.372362337599175e-75,
+        "home_ownership": 0.0033341369775964284,
+        "annual_inc": 8.226364895006197e-33,
+        "purpose": 6.697683167264207e-60,
+        "addr_state": 2.6919511692811118e-21,
+        "dti": 1.729469140099809e-05,
+        "inq_last_6mths": 5.598525595096308e-41,
+        "revol_util": 6.111572602834061e-06,
+        "loan_to_inc": 3.3624475536394262e-06
+      },
+      "intercept": -2.9980306837863275,
+      "factor": 28.85390081777927,
+      "offset": 487.1228762045055,
+      "n_train": 74522,
+      "dropped": [
+        [
+          "loan_amnt",
+          "IV 0.0058 < 0.02"
+        ],
+        [
+          "installment",
+          "IV 0.0041 < 0.02"
+        ],
+        [
+          "emp_years",
+          "IV 0.0110 < 0.02"
+        ],
+        [
+          "verification_status",
+          "IV 0.0156 < 0.02"
+        ],
+        [
+          "delinq_2yrs",
+          "IV 0.0008 < 0.02"
+        ],
+        [
+          "mths_since_last_delinq",
+          "IV 0.0018 < 0.02"
+        ],
+        [
+          "mths_since_last_record",
+          "IV 0.0085 < 0.02"
+        ],
+        [
+          "open_acc",
+          "IV 0.0001 < 0.02"
+        ],
+        [
+          "pub_rec",
+          "IV 0.0000 < 0.02"
+        ],
+        [
+          "revol_bal",
+          "IV 0.0055 < 0.02"
+        ],
+        [
+          "total_acc",
+          "IV 0.0103 < 0.02"
+        ],
+        [
+          "initial_list_status",
+          "IV 0.0001 < 0.02"
+        ],
+        [
+          "credit_age_m",
+          "IV 0.0188 < 0.02"
+        ],
+        [
+          "int_rate",
+          "corr 0.95 with sub_grade"
+        ],
+        [
+          "grade",
+          "corr 0.95 with sub_grade"
+        ],
+        [
+          "pti",
+          "corr 0.90 with loan_to_inc"
+        ],
+        [
+          "term_m",
+          "p 0.474 > 0.05"
+        ]
+      ]
+    },
+    "sc_indep": {
+      "kind": "sc",
+      "n_features": 22,
+      "features": [
+        "loan_amnt",
+        "term_m",
+        "emp_years",
+        "home_ownership",
+        "annual_inc",
+        "verification_status",
+        "purpose",
+        "addr_state",
+        "dti",
+        "delinq_2yrs",
+        "inq_last_6mths",
+        "mths_since_last_delinq",
+        "mths_since_last_record",
+        "open_acc",
+        "pub_rec",
+        "revol_bal",
+        "revol_util",
+        "total_acc",
+        "initial_list_status",
+        "credit_age_m",
+        "loan_to_inc",
+        "pti"
+      ],
+      "margin_shift": 0.0,
+      "scorecard_variables": [
+        "term_m",
+        "home_ownership",
+        "annual_inc",
+        "purpose",
+        "addr_state",
+        "dti",
+        "inq_last_6mths",
+        "revol_util",
+        "loan_to_inc"
+      ],
+      "iv": {
+        "term_m": 0.031998568823757706,
+        "home_ownership": 0.020323664667546367,
+        "annual_inc": 0.05526486223364528,
+        "purpose": 0.09090743229840999,
+        "addr_state": 0.029657114375519426,
+        "dti": 0.02386266391639909,
+        "inq_last_6mths": 0.08803722321754165,
+        "revol_util": 0.045055508664530265,
+        "loan_to_inc": 0.05283769863730554
+      },
+      "vif": {
+        "term_m": 1.1650527840485592,
+        "home_ownership": 1.1278326189493886,
+        "annual_inc": 1.2817344629407705,
+        "purpose": 1.0083371016607203,
+        "addr_state": 1.0038780512751366,
+        "dti": 1.0946056001267457,
+        "inq_last_6mths": 1.019126052664191,
+        "revol_util": 1.0471242336998048,
+        "loan_to_inc": 1.2729324958730817
+      },
+      "pvalues": {
+        "term_m": 1.0120096348247657e-15,
+        "home_ownership": 1.1697583419082942e-06,
+        "annual_inc": 2.227988744864738e-25,
+        "purpose": 1.952657138719629e-68,
+        "addr_state": 1.5522843851325473e-21,
+        "dti": 8.645799124452298e-06,
+        "inq_last_6mths": 5.132528056642466e-78,
+        "revol_util": 1.8573197645757727e-44,
+        "loan_to_inc": 1.3326715449682698e-10
+      },
+      "intercept": -2.995235098264459,
+      "factor": 28.85390081777927,
+      "offset": 487.1228762045055,
+      "n_train": 74522,
+      "dropped": [
+        [
+          "loan_amnt",
+          "IV 0.0058 < 0.02"
+        ],
+        [
+          "emp_years",
+          "IV 0.0110 < 0.02"
+        ],
+        [
+          "verification_status",
+          "IV 0.0156 < 0.02"
+        ],
+        [
+          "delinq_2yrs",
+          "IV 0.0008 < 0.02"
+        ],
+        [
+          "mths_since_last_delinq",
+          "IV 0.0018 < 0.02"
+        ],
+        [
+          "mths_since_last_record",
+          "IV 0.0085 < 0.02"
+        ],
+        [
+          "open_acc",
+          "IV 0.0001 < 0.02"
+        ],
+        [
+          "pub_rec",
+          "IV 0.0000 < 0.02"
+        ],
+        [
+          "revol_bal",
+          "IV 0.0055 < 0.02"
+        ],
+        [
+          "total_acc",
+          "IV 0.0103 < 0.02"
+        ],
+        [
+          "initial_list_status",
+          "IV 0.0001 < 0.02"
+        ],
+        [
+          "credit_age_m",
+          "IV 0.0188 < 0.02"
+        ],
+        [
+          "pti",
+          "corr 0.90 with loan_to_inc"
+        ]
+      ]
+    },
+    "xgb": {
+      "kind": "xgb",
+      "n_features": 26,
+      "features": [
+        "loan_amnt",
+        "term_m",
+        "int_rate",
+        "installment",
+        "grade",
+        "sub_grade",
+        "emp_years",
+        "home_ownership",
+        "annual_inc",
+        "verification_status",
+        "purpose",
+        "addr_state",
+        "dti",
+        "delinq_2yrs",
+        "inq_last_6mths",
+        "mths_since_last_delinq",
+        "mths_since_last_record",
+        "open_acc",
+        "pub_rec",
+        "revol_bal",
+        "revol_util",
+        "total_acc",
+        "initial_list_status",
+        "credit_age_m",
+        "loan_to_inc",
+        "pti"
+      ],
+      "margin_shift": 0.0,
+      "params": {
+        "learning_rate": 0.06164668575928169,
+        "max_depth": 5,
+        "num_leaves": 14,
+        "min_child": 253,
+        "subsample": 0.6621302522251215,
+        "colsample": 0.7504738033764828,
+        "reg_lambda": 3.5115629425254213,
+        "n_estimators": 71
+      },
+      "calibration_brier": {
+        "isotonic": 0.0444481418779936,
+        "platt": 0.044419555167998545
+      },
+      "calibration_method": "platt",
+      "cv_logloss": 0.17490993440151215
+    },
+    "lgbm": {
+      "kind": "lgbm",
+      "n_features": 26,
+      "features": [
+        "loan_amnt",
+        "term_m",
+        "int_rate",
+        "installment",
+        "grade",
+        "sub_grade",
+        "emp_years",
+        "home_ownership",
+        "annual_inc",
+        "verification_status",
+        "purpose",
+        "addr_state",
+        "dti",
+        "delinq_2yrs",
+        "inq_last_6mths",
+        "mths_since_last_delinq",
+        "mths_since_last_record",
+        "open_acc",
+        "pub_rec",
+        "revol_bal",
+        "revol_util",
+        "total_acc",
+        "initial_list_status",
+        "credit_age_m",
+        "loan_to_inc",
+        "pti"
+      ],
+      "margin_shift": 0.0,
+      "params": {
+        "learning_rate": 0.037487630284097684,
+        "max_depth": 3,
+        "num_leaves": 36,
+        "min_child": 131,
+        "subsample": 0.9485899486654098,
+        "colsample": 0.9495245608307668,
+        "reg_lambda": 3.8971286102089753,
+        "n_estimators": 65
+      },
+      "calibration_brier": {
+        "isotonic": 0.04458758399149093,
+        "platt": 0.04449378195752347
+      },
+      "calibration_method": "platt",
+      "cv_logloss": 0.17542197374551108
+    },
+    "sc_full_recal": {
+      "kind": "recal",
+      "n_features": 26,
+      "features": [
+        "loan_amnt",
+        "term_m",
+        "int_rate",
+        "installment",
+        "grade",
+        "sub_grade",
+        "emp_years",
+        "home_ownership",
+        "annual_inc",
+        "verification_status",
+        "purpose",
+        "addr_state",
+        "dti",
+        "delinq_2yrs",
+        "inq_last_6mths",
+        "mths_since_last_delinq",
+        "mths_since_last_record",
+        "open_acc",
+        "pub_rec",
+        "revol_bal",
+        "revol_util",
+        "total_acc",
+        "initial_list_status",
+        "credit_age_m",
+        "loan_to_inc",
+        "pti"
+      ],
+      "margin_shift": -0.15404231783586803,
+      "intercept_shift": -0.15404231783586803,
+      "fitted_on": "oot1",
+      "evaluate_on": [
+        "oot2"
+      ],
+      "note": "intercept fitted with OOT1 outcomes; OOT1 metrics are in-sample, use OOT2 only",
+      "scorecard_variables": [
+        "sub_grade",
+        "home_ownership",
+        "annual_inc",
+        "purpose",
+        "addr_state",
+        "dti",
+        "inq_last_6mths",
+        "revol_util",
+        "loan_to_inc"
+      ],
+      "iv": {
+        "sub_grade": 0.24398583781753055,
+        "home_ownership": 0.020323664667546367,
+        "annual_inc": 0.05526486223364528,
+        "purpose": 0.09090743229840999,
+        "addr_state": 0.029657114375519426,
+        "dti": 0.02386266391639909,
+        "inq_last_6mths": 0.08803722321754165,
+        "revol_util": 0.045055508664530265,
+        "loan_to_inc": 0.05283769863730554
+      },
+      "vif": {
+        "sub_grade": 1.4474888006254305,
+        "home_ownership": 1.1299881444929745,
+        "annual_inc": 1.2560339224996886,
+        "purpose": 1.0134063133020055,
+        "addr_state": 1.0039047977059194,
+        "dti": 1.0947598034542612,
+        "inq_last_6mths": 1.1019877695627531,
+        "revol_util": 1.319032872990811,
+        "loan_to_inc": 1.2098447495040114
+      },
+      "pvalues": {
+        "sub_grade": 2.372362337599175e-75,
+        "home_ownership": 0.0033341369775964284,
+        "annual_inc": 8.226364895006197e-33,
+        "purpose": 6.697683167264207e-60,
+        "addr_state": 2.6919511692811118e-21,
+        "dti": 1.729469140099809e-05,
+        "inq_last_6mths": 5.598525595096308e-41,
+        "revol_util": 6.111572602834061e-06,
+        "loan_to_inc": 3.3624475536394262e-06
+      },
+      "intercept": -2.9980306837863275,
+      "factor": 28.85390081777927,
+      "offset": 487.1228762045055,
+      "n_train": 74522,
+      "dropped": [
+        [
+          "loan_amnt",
+          "IV 0.0058 < 0.02"
+        ],
+        [
+          "installment",
+          "IV 0.0041 < 0.02"
+        ],
+        [
+          "emp_years",
+          "IV 0.0110 < 0.02"
+        ],
+        [
+          "verification_status",
+          "IV 0.0156 < 0.02"
+        ],
+        [
+          "delinq_2yrs",
+          "IV 0.0008 < 0.02"
+        ],
+        [
+          "mths_since_last_delinq",
+          "IV 0.0018 < 0.02"
+        ],
+        [
+          "mths_since_last_record",
+          "IV 0.0085 < 0.02"
+        ],
+        [
+          "open_acc",
+          "IV 0.0001 < 0.02"
+        ],
+        [
+          "pub_rec",
+          "IV 0.0000 < 0.02"
+        ],
+        [
+          "revol_bal",
+          "IV 0.0055 < 0.02"
+        ],
+        [
+          "total_acc",
+          "IV 0.0103 < 0.02"
+        ],
+        [
+          "initial_list_status",
+          "IV 0.0001 < 0.02"
+        ],
+        [
+          "credit_age_m",
+          "IV 0.0188 < 0.02"
+        ],
+        [
+          "int_rate",
+          "corr 0.95 with sub_grade"
+        ],
+        [
+          "grade",
+          "corr 0.95 with sub_grade"
+        ],
+        [
+          "pti",
+          "corr 0.90 with loan_to_inc"
+        ],
+        [
+          "term_m",
+          "p 0.474 > 0.05"
+        ]
+      ]
+    },
+    "repro_original": {
+      "kind": "repro",
+      "n_features": 17,
+      "features": [
+        "acc_now_delinq",
+        "addr_state",
+        "annual_inc",
+        "dti",
+        "earliest_cr_line",
+        "emp_length",
+        "grade",
+        "home_ownership",
+        "initial_list_status",
+        "inq_last_6mths",
+        "int_rate",
+        "mths_since_issue_d",
+        "mths_since_last_delinq",
+        "mths_since_last_record",
+        "purpose",
+        "term",
+        "verification_status"
+      ],
+      "margin_shift": 0.0,
+      "target": "target_lifetime",
+      "note": "uses loan-age proxy mths_since_issue_d; trained on random 80/20 lifetime target"
+    }
+  },
+  "splits": {
+    "dev_train": {
+      "n": 74522,
+      "target": "target_bad12",
+      "bad_rate": 0.04774429027669681,
+      "issue_min": "2007-06-01",
+      "issue_max": "2012-12-01"
+    },
+    "dev_holdout": {
+      "n": 18631,
+      "target": "target_bad12",
+      "bad_rate": 0.04771617197144544,
+      "issue_min": "2007-07-01",
+      "issue_max": "2012-12-01"
+    },
+    "oot1": {
+      "n": 134755,
+      "target": "target_bad12",
+      "bad_rate": 0.042484508923602095,
+      "issue_min": "2013-01-01",
+      "issue_max": "2013-12-01"
+    },
+    "oot2": {
+      "n": 225321,
+      "target": "target_bad12",
+      "bad_rate": 0.04655136449776097,
+      "issue_min": "2014-01-01",
+      "issue_max": "2014-11-01"
+    },
+    "complete36": {
+      "n": 72566,
+      "target": "target_lifetime",
+      "bad_rate": 0.12628503706970207,
+      "issue_min": "2007-06-01",
+      "issue_max": "2012-12-01"
+    },
+    "repro_train": {
+      "n": 373028,
+      "target": "target_bad12",
+      "bad_rate": 0.046106458496413136,
+      "issue_min": "2007-06-01",
+      "issue_max": "2014-12-01"
+    },
+    "repro_test": {
+      "n": 93257,
+      "target": "target_lifetime",
+      "bad_rate": 0.10926793699132505,
+      "issue_min": "2007-06-01",
+      "issue_max": "2014-12-01"
+    }
+  },
+  "thresholds": {
+    "gini": [
+      0.4,
+      0.3
+    ],
+    "gini_decay": [
+      0.1,
+      0.2
+    ],
+    "ks": [
+      0.3,
+      0.2
+    ],
+    "psi": [
+      0.1,
+      0.25
+    ],
+    "hl_p": [
+      0.05,
+      0.01
+    ],
+    "binom_p": [
+      0.05,
+      0.0001
+    ],
+    "central_tendency": [
+      0.1,
+      0.25
+    ],
+    "slope": [
+      [
+        0.9,
+        1.1
+      ],
+      [
+        0.8,
+        1.2
+      ]
+    ],
+    "rank_inversions": [
+      0,
+      2
+    ]
+  },
+  "light_counts": {
+    "Info": 324,
+    "Green": 99,
+    "Amber": 55,
+    "Red": 30
+  }
+}

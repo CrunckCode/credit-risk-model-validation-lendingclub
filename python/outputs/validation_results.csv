@@ -1,0 +1,509 @@
+test,model,split,value,threshold,light
+auc,sc_full,dev_train,0.6908062806089457,,Info
+gini,sc_full,dev_train,0.38161256121789133,Green >= 0.4; Amber >= 0.3,Amber
+ks,sc_full,dev_train,0.28276348720023314,Green >= 0.3; Amber >= 0.2,Amber
+brier,sc_full,dev_train,0.04436658333893174,,Info
+brier_skill,sc_full,dev_train,0.02415473806922941,,Info
+decile_rank_inversions,sc_full,dev_train,1.0,Green <= 0; Amber <= 2,Amber
+ks_decile,sc_full,dev_train,0.2797388594281739,,Info
+mean_pd,sc_full,dev_train,0.04774429027669681,,Info
+obs_rate,sc_full,dev_train,0.04774429027669681,,Info
+central_tendency,sc_full,dev_train,0.0,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,sc_full,dev_train,0.0,,Info
+hl_stat,sc_full,dev_train,11.36553502516583,,Info
+hl_p,sc_full,dev_train,0.18183503277940707,Green >= 0.05; Amber >= 0.01,Green
+cal_slope,sc_full,dev_train,0.9999999999999996,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,sc_full,dev_train,-1.3038025218815926e-15,,Info
+cal_slope_ci_lo,sc_full,dev_train,0.9490724190901777,,Info
+cal_slope_ci_hi,sc_full,dev_train,1.0509275809098215,,Info
+auc,sc_full,dev_holdout,0.6859257785539743,,Info
+gini,sc_full,dev_holdout,0.3718515571079486,Green >= 0.4; Amber >= 0.3,Amber
+ks,sc_full,dev_holdout,0.2806862111461633,Green >= 0.3; Amber >= 0.2,Amber
+brier,sc_full,dev_holdout,0.04457159101220205,,Info
+brier_skill,sc_full,dev_holdout,0.01909684235220155,,Info
+decile_rank_inversions,sc_full,dev_holdout,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,sc_full,dev_holdout,0.2744823662344879,,Info
+mean_pd,sc_full,dev_holdout,0.04761529389125195,,Info
+obs_rate,sc_full,dev_holdout,0.04771617197144544,,Info
+central_tendency,sc_full,dev_holdout,0.0021141276851348724,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,sc_full,dev_holdout,-0.002114127685134859,,Info
+hl_stat,sc_full,dev_holdout,10.769530300861362,,Info
+hl_p,sc_full,dev_holdout,0.37575345603054466,Green >= 0.05; Amber >= 0.01,Green
+cal_slope,sc_full,dev_holdout,0.9488406215063607,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,sc_full,dev_holdout,-0.1405491862684282,,Info
+cal_slope_ci_lo,sc_full,dev_holdout,0.8478506471498506,,Info
+cal_slope_ci_hi,sc_full,dev_holdout,1.0498305958628709,,Info
+binomial_grade_min_p,sc_full,dev_holdout,0.3360028377414119,Green >= 0.05; Amber >= 0.0001,Green
+binomial_grade_n_red,sc_full,dev_holdout,0.0,,Info
+auc,sc_full,oot1,0.6764841919231404,,Info
+gini,sc_full,oot1,0.3529683838462807,Green >= 0.4; Amber >= 0.3,Amber
+ks,sc_full,oot1,0.2543511258171909,Green >= 0.3; Amber >= 0.2,Amber
+brier,sc_full,oot1,0.040071893125468584,,Info
+brier_skill,sc_full,oot1,0.014938265537515871,,Info
+decile_rank_inversions,sc_full,oot1,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,sc_full,oot1,0.25283775784853524,,Info
+gini_ci_lo,sc_full,oot1,0.33115384499695605,,Info
+gini_ci_hi,sc_full,oot1,0.37498030741052635,,Info
+mean_pd,sc_full,oot1,0.04905062351199375,,Info
+obs_rate,sc_full,oot1,0.042484508923602095,,Info
+central_tendency,sc_full,oot1,0.15455314783558377,Green <= 0.1; Amber <= 0.25,Amber
+central_tendency_signed,sc_full,oot1,0.15455314783558372,,Info
+hl_stat,sc_full,oot1,145.72522476470317,,Info
+hl_p,sc_full,oot1,2.819311246410118e-26,Green >= 0.05; Amber >= 0.01,Red
+cal_slope,sc_full,oot1,0.9269877513831999,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,sc_full,oot1,-0.35599901116989596,,Info
+cal_slope_ci_lo,sc_full,oot1,0.886580734744797,,Info
+cal_slope_ci_hi,sc_full,oot1,0.9673947680216027,,Info
+binomial_grade_min_p,sc_full,oot1,0.24741152023384255,Green >= 0.05; Amber >= 0.0001,Green
+binomial_grade_n_red,sc_full,oot1,0.0,,Info
+subgrade_rank_inversions,sc_full,oot1,11.0,,Info
+subgrade_groups,sc_full,oot1,33.0,,Info
+auc,sc_full,oot2,0.6727797409760926,,Info
+gini,sc_full,oot2,0.3455594819521852,Green >= 0.4; Amber >= 0.3,Amber
+ks,sc_full,oot2,0.24934458738095167,Green >= 0.3; Amber >= 0.2,Amber
+brier,sc_full,oot2,0.043656294008043446,,Info
+brier_skill,sc_full,oot2,0.016403106045213,,Info
+decile_rank_inversions,sc_full,oot2,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,sc_full,oot2,0.24602989092198385,,Info
+gini_ci_lo,sc_full,oot2,0.33250435848786025,,Info
+gini_ci_hi,sc_full,oot2,0.37565793616665943,,Info
+mean_pd,sc_full,oot2,0.049524114658514876,,Info
+obs_rate,sc_full,oot2,0.04655136449776097,,Info
+central_tendency,sc_full,oot2,0.06385957088104023,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,sc_full,oot2,0.06385957088104033,,Info
+hl_stat,sc_full,oot2,95.53343203966264,,Info
+hl_p,sc_full,oot2,4.251933841612999e-16,Green >= 0.05; Amber >= 0.01,Red
+cal_slope,sc_full,oot2,0.9051960866883249,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,sc_full,oot2,-0.32870605642689094,,Info
+cal_slope_ci_lo,sc_full,oot2,0.8749972225449116,,Info
+cal_slope_ci_hi,sc_full,oot2,0.9353949508317381,,Info
+binomial_grade_min_p,sc_full,oot2,1.5147360133390482e-15,Green >= 0.05; Amber >= 0.0001,Red
+binomial_grade_n_red,sc_full,oot2,3.0,,Info
+subgrade_rank_inversions,sc_full,oot2,8.0,,Info
+subgrade_groups,sc_full,oot2,35.0,,Info
+auc,sc_full,complete36,0.661526227556364,,Info
+gini,sc_full,complete36,0.32305245511272807,Green >= 0.4; Amber >= 0.3,Amber
+ks,sc_full,complete36,0.2338706900303773,Green >= 0.3; Amber >= 0.2,Amber
+brier,sc_full,complete36,0.11435616074867662,,Info
+brier_skill,sc_full,complete36,-0.03642504019103687,,Info
+decile_rank_inversions,sc_full,complete36,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,sc_full,complete36,0.2325545402259609,,Info
+auc,sc_indep,dev_train,0.672413120014078,,Info
+gini,sc_indep,dev_train,0.3448262400281561,Green >= 0.4; Amber >= 0.3,Amber
+ks,sc_indep,dev_train,0.2524324694604036,Green >= 0.3; Amber >= 0.2,Amber
+brier,sc_indep,dev_train,0.04453661931040131,,Info
+brier_skill,sc_indep,dev_train,0.020414788209922263,,Info
+decile_rank_inversions,sc_indep,dev_train,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,sc_indep,dev_train,0.24550164206164404,,Info
+mean_pd,sc_indep,dev_train,0.04774429027669681,,Info
+obs_rate,sc_indep,dev_train,0.04774429027669681,,Info
+central_tendency,sc_indep,dev_train,0.0,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,sc_indep,dev_train,0.0,,Info
+hl_stat,sc_indep,dev_train,4.4784829118177605,,Info
+hl_p,sc_indep,dev_train,0.8115819457705379,Green >= 0.05; Amber >= 0.01,Green
+cal_slope,sc_indep,dev_train,0.9999999999999996,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,sc_indep,dev_train,-1.1386923432551248e-15,,Info
+cal_slope_ci_lo,sc_indep,dev_train,0.9455931155141505,,Info
+cal_slope_ci_hi,sc_indep,dev_train,1.0544068844858485,,Info
+auc,sc_indep,dev_holdout,0.6610335569737922,,Info
+gini,sc_indep,dev_holdout,0.32206711394758436,Green >= 0.4; Amber >= 0.3,Amber
+ks,sc_indep,dev_holdout,0.2405053612464827,Green >= 0.3; Amber >= 0.2,Amber
+brier,sc_indep,dev_holdout,0.04481388855681134,,Info
+brier_skill,sc_indep,dev_holdout,0.01376451247121302,,Info
+decile_rank_inversions,sc_indep,dev_holdout,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,sc_indep,dev_holdout,0.23195834457114917,,Info
+mean_pd,sc_indep,dev_holdout,0.04761905133969284,,Info
+obs_rate,sc_indep,dev_holdout,0.04771617197144544,,Info
+central_tendency,sc_indep,dev_holdout,0.002035381878720703,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,sc_indep,dev_holdout,-0.0020353818787206546,,Info
+hl_stat,sc_indep,dev_holdout,16.227862689104295,,Info
+hl_p,sc_indep,dev_holdout,0.09329271987727634,Green >= 0.05; Amber >= 0.01,Green
+cal_slope,sc_indep,dev_holdout,0.906062027595043,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,sc_indep,dev_holdout,-0.2644846998430536,,Info
+cal_slope_ci_lo,sc_indep,dev_holdout,0.7979589109314751,,Info
+cal_slope_ci_hi,sc_indep,dev_holdout,1.0141651442586108,,Info
+binomial_grade_min_p,sc_indep,dev_holdout,0.0027242840933220224,Green >= 0.05; Amber >= 0.0001,Amber
+binomial_grade_n_red,sc_indep,dev_holdout,0.0,,Info
+auc,sc_indep,oot1,0.6472547327438493,,Info
+gini,sc_indep,oot1,0.2945094654876985,Green >= 0.4; Amber >= 0.3,Red
+ks,sc_indep,oot1,0.2083699637232735,Green >= 0.3; Amber >= 0.2,Amber
+brier,sc_indep,oot1,0.04021296921070687,,Info
+brier_skill,sc_indep,oot1,0.011470282310946489,,Info
+decile_rank_inversions,sc_indep,oot1,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,sc_indep,oot1,0.20559029804855644,,Info
+gini_ci_lo,sc_indep,oot1,0.267879612756008,,Info
+gini_ci_hi,sc_indep,oot1,0.3132556628217211,,Info
+mean_pd,sc_indep,oot1,0.04494929122341886,,Info
+obs_rate,sc_indep,oot1,0.042484508923602095,,Info
+central_tendency,sc_indep,oot1,0.0580160242466041,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,sc_indep,oot1,0.058016024246604125,,Info
+hl_stat,sc_indep,oot1,48.95532616876021,,Info
+hl_p,sc_indep,oot1,4.150747653604326e-07,Green >= 0.05; Amber >= 0.01,Red
+cal_slope,sc_indep,oot1,0.9038067737082521,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,sc_indep,oot1,-0.3405574528241211,,Info
+cal_slope_ci_lo,sc_indep,oot1,0.8580306098075069,,Info
+cal_slope_ci_hi,sc_indep,oot1,0.9495829376089974,,Info
+binomial_grade_min_p,sc_indep,oot1,9.55013968777731e-11,Green >= 0.05; Amber >= 0.0001,Red
+binomial_grade_n_red,sc_indep,oot1,3.0,,Info
+subgrade_rank_inversions,sc_indep,oot1,11.0,,Info
+subgrade_groups,sc_indep,oot1,33.0,,Info
+auc,sc_indep,oot2,0.6329137689157067,,Info
+gini,sc_indep,oot2,0.26582753783141344,Green >= 0.4; Amber >= 0.3,Red
+ks,sc_indep,oot2,0.19158373607952522,Green >= 0.3; Amber >= 0.2,Red
+brier,sc_indep,oot2,0.04396551099625085,,Info
+brier_skill,sc_indep,oot2,0.009436301462514729,,Info
+decile_rank_inversions,sc_indep,oot2,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,sc_indep,oot2,0.1881236105140111,,Info
+gini_ci_lo,sc_indep,oot2,0.25335285690628045,,Info
+gini_ci_hi,sc_indep,oot2,0.297639257968123,,Info
+mean_pd,sc_indep,oot2,0.044924567659988104,,Info
+obs_rate,sc_indep,oot2,0.04655136449776097,,Info
+central_tendency,sc_indep,oot2,0.034946276125828936,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,sc_indep,oot2,-0.0349462761258289,,Info
+hl_stat,sc_indep,oot2,133.07169078216108,,Info
+hl_p,sc_indep,oot2,1.1024477063927278e-23,Green >= 0.05; Amber >= 0.01,Red
+cal_slope,sc_indep,oot2,0.8089476726657329,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Amber
+cal_intercept,sc_indep,oot2,-0.52285299752918,,Info
+cal_slope_ci_lo,sc_indep,oot2,0.7750527210370107,,Info
+cal_slope_ci_hi,sc_indep,oot2,0.842842624294455,,Info
+binomial_grade_min_p,sc_indep,oot2,8.074396092182642e-62,Green >= 0.05; Amber >= 0.0001,Red
+binomial_grade_n_red,sc_indep,oot2,4.0,,Info
+subgrade_rank_inversions,sc_indep,oot2,8.0,,Info
+subgrade_groups,sc_indep,oot2,35.0,,Info
+auc,sc_indep,complete36,0.636183850884033,,Info
+gini,sc_indep,complete36,0.2723677017680659,Green >= 0.4; Amber >= 0.3,Red
+ks,sc_indep,complete36,0.1963974247535603,Green >= 0.3; Amber >= 0.2,Red
+brier,sc_indep,complete36,0.1151587175363494,,Info
+brier_skill,sc_indep,complete36,-0.04369871871848763,,Info
+decile_rank_inversions,sc_indep,complete36,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,sc_indep,complete36,0.19475184163970116,,Info
+auc,xgb,dev_train,0.7170167000573077,,Info
+gini,xgb,dev_train,0.43403340011461533,Green >= 0.4; Amber >= 0.3,Green
+ks,xgb,dev_train,0.31975974549034664,Green >= 0.3; Amber >= 0.2,Green
+brier,xgb,dev_train,0.043908286708239416,,Info
+brier_skill,xgb,dev_train,0.034234995820957015,,Info
+decile_rank_inversions,xgb,dev_train,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,xgb,dev_train,0.3184033031783068,,Info
+mean_pd,xgb,dev_train,0.04783700410053296,,Info
+obs_rate,xgb,dev_train,0.04774429027669681,,Info
+central_tendency,xgb,dev_train,0.0019418829623151484,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,xgb,dev_train,0.0019418829623152334,,Info
+hl_stat,xgb,dev_train,43.031277824551694,,Info
+hl_p,xgb,dev_train,8.66595463440903e-07,Green >= 0.05; Amber >= 0.01,Red
+cal_slope,xgb,dev_train,1.1500920377526798,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Amber
+cal_intercept,xgb,dev_train,0.4103085948125681,,Info
+cal_slope_ci_lo,xgb,dev_train,1.0995846022641045,,Info
+cal_slope_ci_hi,xgb,dev_train,1.200599473241255,,Info
+auc,xgb,dev_holdout,0.6983732841646401,,Info
+gini,xgb,dev_holdout,0.3967465683292801,Green >= 0.4; Amber >= 0.3,Amber
+ks,xgb,dev_holdout,0.30635369936214857,Green >= 0.3; Amber >= 0.2,Green
+brier,xgb,dev_holdout,0.04441965429756203,,Info
+brier_skill,xgb,dev_holdout,0.02244056869825517,,Info
+decile_rank_inversions,xgb,dev_holdout,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,xgb,dev_holdout,0.3004692683620837,,Info
+mean_pd,xgb,dev_holdout,0.047723827566427235,,Info
+obs_rate,xgb,dev_holdout,0.04771617197144544,,Info
+central_tendency,xgb,dev_holdout,0.00016044025883670102,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,xgb,dev_holdout,0.00016044025883665824,,Info
+hl_stat,xgb,dev_holdout,11.119811067937873,,Info
+hl_p,xgb,dev_holdout,0.34826015767375884,Green >= 0.05; Amber >= 0.01,Green
+cal_slope,xgb,dev_holdout,0.9996170244581843,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,xgb,dev_holdout,-0.0012364825188357984,,Info
+cal_slope_ci_lo,xgb,dev_holdout,0.9007258035412823,,Info
+cal_slope_ci_hi,xgb,dev_holdout,1.0985082453750863,,Info
+binomial_grade_min_p,xgb,dev_holdout,0.23923701435423747,Green >= 0.05; Amber >= 0.0001,Green
+binomial_grade_n_red,xgb,dev_holdout,0.0,,Info
+auc,xgb,oot1,0.6876081511120767,,Info
+gini,xgb,oot1,0.3752163022241535,Green >= 0.4; Amber >= 0.3,Amber
+ks,xgb,oot1,0.2795361493061936,Green >= 0.3; Amber >= 0.2,Amber
+brier,xgb,oot1,0.04011164048776881,,Info
+brier_skill,xgb,oot1,0.013961181536887968,,Info
+decile_rank_inversions,xgb,oot1,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,xgb,oot1,0.2769175443103005,,Info
+gini_ci_lo,xgb,oot1,0.35269938124261097,,Info
+gini_ci_hi,xgb,oot1,0.3969486246346712,,Info
+mean_pd,xgb,oot1,0.05183141878752565,,Info
+obs_rate,xgb,oot1,0.042484508923602095,,Info
+central_tendency,xgb,oot1,0.22000748274463214,Green <= 0.1; Amber <= 0.25,Amber
+central_tendency_signed,xgb,oot1,0.2200074827446321,,Info
+hl_stat,xgb,oot1,292.96581417659036,,Info
+hl_p,xgb,oot1,4.7660451050096146e-57,Green >= 0.05; Amber >= 0.01,Red
+cal_slope,xgb,oot1,0.9423777389772444,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,xgb,oot1,-0.3692384999319267,,Info
+cal_slope_ci_lo,xgb,oot1,0.9036254334928799,,Info
+cal_slope_ci_hi,xgb,oot1,0.9811300444616089,,Info
+binomial_grade_min_p,xgb,oot1,0.7663991399387373,Green >= 0.05; Amber >= 0.0001,Green
+binomial_grade_n_red,xgb,oot1,0.0,,Info
+subgrade_rank_inversions,xgb,oot1,12.0,,Info
+subgrade_groups,xgb,oot1,33.0,,Info
+auc,xgb,oot2,0.6869116040311851,,Info
+gini,xgb,oot2,0.37382320806237024,Green >= 0.4; Amber >= 0.3,Amber
+ks,xgb,oot2,0.27379337225421296,Green >= 0.3; Amber >= 0.2,Amber
+brier,xgb,oot2,0.043559867138633704,,Info
+brier_skill,xgb,oot2,0.01857564889156027,,Info
+decile_rank_inversions,xgb,oot2,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,xgb,oot2,0.2722175327285208,,Info
+gini_ci_lo,xgb,oot2,0.35777277405007585,,Info
+gini_ci_hi,xgb,oot2,0.40062798039235104,,Info
+mean_pd,xgb,oot2,0.049014038084848284,,Info
+obs_rate,xgb,oot2,0.04655136449776097,,Info
+central_tendency,xgb,oot2,0.052902285758041845,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,xgb,oot2,0.0529022857580419,,Info
+hl_stat,xgb,oot2,91.69596297649615,,Info
+hl_p,xgb,oot2,2.467442800997178e-15,Green >= 0.05; Amber >= 0.01,Red
+cal_slope,xgb,oot2,0.9283235954946798,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,xgb,oot2,-0.2531807109033693,,Info
+cal_slope_ci_lo,xgb,oot2,0.8997248278624006,,Info
+cal_slope_ci_hi,xgb,oot2,0.956922363126959,,Info
+binomial_grade_min_p,xgb,oot2,4.119276329053054e-09,Green >= 0.05; Amber >= 0.0001,Red
+binomial_grade_n_red,xgb,oot2,1.0,,Info
+subgrade_rank_inversions,xgb,oot2,9.0,,Info
+subgrade_groups,xgb,oot2,35.0,,Info
+auc,xgb,complete36,0.6737443564542004,,Info
+gini,xgb,complete36,0.3474887129084008,Green >= 0.4; Amber >= 0.3,Amber
+ks,xgb,complete36,0.24940424696928443,Green >= 0.3; Amber >= 0.2,Amber
+brier,xgb,complete36,0.11406962887281527,,Info
+brier_skill,xgb,complete36,-0.03382816382677811,,Info
+decile_rank_inversions,xgb,complete36,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,xgb,complete36,0.24783222810373623,,Info
+auc,lgbm,dev_train,0.7607098971938332,,Info
+gini,lgbm,dev_train,0.5214197943876664,Green >= 0.4; Amber >= 0.3,Green
+ks,lgbm,dev_train,0.3906647010911073,Green >= 0.3; Amber >= 0.2,Green
+brier,lgbm,dev_train,0.04290002499901633,,Info
+brier_skill,lgbm,dev_train,0.056411763507013934,,Info
+decile_rank_inversions,lgbm,dev_train,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,lgbm,dev_train,0.38917707730041906,,Info
+mean_pd,lgbm,dev_train,0.04782534435377041,,Info
+obs_rate,lgbm,dev_train,0.04774429027669681,,Info
+central_tendency,lgbm,dev_train,0.001697670582259251,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,lgbm,dev_train,0.0016976705822593363,,Info
+hl_stat,lgbm,dev_train,320.7620206299459,,Info
+hl_p,lgbm,dev_train,1.559080314816475e-64,Green >= 0.05; Amber >= 0.01,Red
+cal_slope,lgbm,dev_train,1.5171342068328482,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Red
+cal_intercept,lgbm,dev_train,1.3950242132271464,,Info
+cal_slope_ci_lo,lgbm,dev_train,1.4635827712498655,,Info
+cal_slope_ci_hi,lgbm,dev_train,1.5706856424158309,,Info
+auc,lgbm,dev_holdout,0.692175050235731,,Info
+gini,lgbm,dev_holdout,0.384350100471462,Green >= 0.4; Amber >= 0.3,Amber
+ks,lgbm,dev_holdout,0.28205142348413753,Green >= 0.3; Amber >= 0.2,Amber
+brier,lgbm,dev_holdout,0.044492913042496626,,Info
+brier_skill,lgbm,dev_holdout,0.020828336947048776,,Info
+decile_rank_inversions,lgbm,dev_holdout,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,lgbm,dev_holdout,0.27696857050798984,,Info
+mean_pd,lgbm,dev_holdout,0.047727638589130914,,Info
+obs_rate,lgbm,dev_holdout,0.04771617197144544,,Info
+central_tendency,lgbm,dev_holdout,0.00024030883475597686,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,lgbm,dev_holdout,0.00024030883475600895,,Info
+hl_stat,lgbm,dev_holdout,17.76526301963039,,Info
+hl_p,lgbm,dev_holdout,0.059054793007019116,Green >= 0.05; Amber >= 0.01,Green
+cal_slope,lgbm,dev_holdout,0.9992763307135206,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,lgbm,dev_holdout,-0.002280419918293523,,Info
+cal_slope_ci_lo,lgbm,dev_holdout,0.8984247639288352,,Info
+cal_slope_ci_hi,lgbm,dev_holdout,1.100127897498206,,Info
+binomial_grade_min_p,lgbm,dev_holdout,0.2740785388711533,Green >= 0.05; Amber >= 0.0001,Green
+binomial_grade_n_red,lgbm,dev_holdout,0.0,,Info
+auc,lgbm,oot1,0.6831920236551738,,Info
+gini,lgbm,oot1,0.3663840473103477,Green >= 0.4; Amber >= 0.3,Amber
+ks,lgbm,oot1,0.26550441706965683,Green >= 0.3; Amber >= 0.2,Amber
+brier,lgbm,oot1,0.04007349556952496,,Info
+brier_skill,lgbm,oot1,0.014898873679571656,,Info
+decile_rank_inversions,lgbm,oot1,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,lgbm,oot1,0.26414796058057655,,Info
+gini_ci_lo,lgbm,oot1,0.3469124742358446,,Info
+gini_ci_hi,lgbm,oot1,0.3919650382100415,,Info
+mean_pd,lgbm,oot1,0.05060214974273343,,Info
+obs_rate,lgbm,oot1,0.042484508923602095,,Info
+central_tendency,lgbm,oot1,0.19107295870428698,Green <= 0.1; Amber <= 0.25,Amber
+central_tendency_signed,lgbm,oot1,0.19107295870428698,,Info
+hl_stat,lgbm,oot1,237.51947678197482,,Info
+hl_p,lgbm,oot1,2.2725672465566956e-45,Green >= 0.05; Amber >= 0.01,Red
+cal_slope,lgbm,oot1,0.9733192009266346,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,lgbm,oot1,-0.26064905951570294,,Info
+cal_slope_ci_lo,lgbm,oot1,0.9331110894710956,,Info
+cal_slope_ci_hi,lgbm,oot1,1.0135273123821738,,Info
+binomial_grade_min_p,lgbm,oot1,0.3862314202616715,Green >= 0.05; Amber >= 0.0001,Green
+binomial_grade_n_red,lgbm,oot1,0.0,,Info
+subgrade_rank_inversions,lgbm,oot1,9.0,,Info
+subgrade_groups,lgbm,oot1,33.0,,Info
+auc,lgbm,oot2,0.6832648011919242,,Info
+gini,lgbm,oot2,0.36652960238384846,Green >= 0.4; Amber >= 0.3,Amber
+ks,lgbm,oot2,0.2692901015198529,Green >= 0.3; Amber >= 0.2,Amber
+brier,lgbm,oot2,0.043570358393739385,,Info
+brier_skill,lgbm,oot2,0.01833927596595797,,Info
+decile_rank_inversions,lgbm,oot2,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,lgbm,oot2,0.26321818314551737,,Info
+gini_ci_lo,lgbm,oot2,0.3552660003757982,,Info
+gini_ci_hi,lgbm,oot2,0.3983362643586072,,Info
+mean_pd,lgbm,oot2,0.049215719847580275,,Info
+obs_rate,lgbm,oot2,0.04655136449776097,,Info
+central_tendency,lgbm,oot2,0.057234742280163585,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,lgbm,oot2,0.057234742280163564,,Info
+hl_stat,lgbm,oot2,92.55069021626389,,Info
+hl_p,lgbm,oot2,1.6687776932858645e-15,Green >= 0.05; Amber >= 0.01,Red
+cal_slope,lgbm,oot2,0.9658734964965281,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,lgbm,oot2,-0.15432313774639986,,Info
+cal_slope_ci_lo,lgbm,oot2,0.9359089402299329,,Info
+cal_slope_ci_hi,lgbm,oot2,0.9958380527631233,,Info
+binomial_grade_min_p,lgbm,oot2,5.721383906338351e-12,Green >= 0.05; Amber >= 0.0001,Red
+binomial_grade_n_red,lgbm,oot2,3.0,,Info
+subgrade_rank_inversions,lgbm,oot2,7.0,,Info
+subgrade_groups,lgbm,oot2,35.0,,Info
+auc,lgbm,complete36,0.6817086312305022,,Info
+gini,lgbm,complete36,0.36341726246100436,Green >= 0.4; Amber >= 0.3,Amber
+ks,lgbm,complete36,0.2577977036113199,Green >= 0.3; Amber >= 0.2,Amber
+brier,lgbm,complete36,0.11364324087670702,,Info
+brier_skill,lgbm,complete36,-0.029963752909952346,,Info
+decile_rank_inversions,lgbm,complete36,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,lgbm,complete36,0.2550761396682399,,Info
+auc,sc_full_recal,oot2,0.6727797409760926,,Info
+gini,sc_full_recal,oot2,0.3455594819521852,Green >= 0.4; Amber >= 0.3,Amber
+ks,sc_full_recal,oot2,0.24934458738095167,Green >= 0.3; Amber >= 0.2,Amber
+brier,sc_full_recal,oot2,0.04363386196827871,,Info
+brier_skill,sc_full_recal,oot2,0.0169085104809078,,Info
+decile_rank_inversions,sc_full_recal,oot2,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,sc_full_recal,oot2,0.24602989092198385,,Info
+gini_ci_lo,sc_full_recal,oot2,0.33250435848786025,,Info
+gini_ci_hi,sc_full_recal,oot2,0.37565793616665943,,Info
+mean_pd,sc_full_recal,oot2,0.042894922967026704,,Info
+obs_rate,sc_full_recal,oot2,0.04655136449776097,,Info
+central_tendency,sc_full_recal,oot2,0.07854638784884883,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,sc_full_recal,oot2,-0.07854638784884882,,Info
+hl_stat,sc_full_recal,oot2,135.10816015232004,,Info
+hl_p,sc_full_recal,oot2,4.227881753765938e-24,Green >= 0.05; Amber >= 0.01,Red
+cal_slope,sc_full_recal,oot2,0.9051960866883244,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,sc_full_recal,oot2,-0.18926755313746543,,Info
+cal_slope_ci_lo,sc_full_recal,oot2,0.8749972225449141,,Info
+cal_slope_ci_hi,sc_full_recal,oot2,0.9353949508317347,,Info
+binomial_grade_min_p,sc_full_recal,oot2,5.079379816156324e-43,Green >= 0.05; Amber >= 0.0001,Red
+binomial_grade_n_red,sc_full_recal,oot2,4.0,,Info
+subgrade_rank_inversions,sc_full_recal,oot2,8.0,,Info
+subgrade_groups,sc_full_recal,oot2,35.0,,Info
+auc,repro_original,dev_train,0.6685817669420393,,Info
+gini,repro_original,dev_train,0.3371635338840786,Green >= 0.4; Amber >= 0.3,Amber
+ks,repro_original,dev_train,0.25154641425832497,Green >= 0.3; Amber >= 0.2,Amber
+brier,repro_original,dev_train,0.057164725762834476,,Info
+brier_skill,repro_original,dev_train,-0.2573410568733925,,Info
+decile_rank_inversions,repro_original,dev_train,1.0,Green <= 0; Amber <= 2,Amber
+ks_decile,repro_original,dev_train,0.24851497433291508,,Info
+auc,repro_original,dev_holdout,0.6767052854443245,,Info
+gini,repro_original,dev_holdout,0.353410570888649,Green >= 0.4; Amber >= 0.3,Amber
+ks,repro_original,dev_holdout,0.27197587366171727,Green >= 0.3; Amber >= 0.2,Amber
+brier,repro_original,dev_holdout,0.05714800440364163,,Info
+brier_skill,repro_original,dev_holdout,-0.25767684526801227,,Info
+decile_rank_inversions,repro_original,dev_holdout,1.0,Green <= 0; Amber <= 2,Amber
+ks_decile,repro_original,dev_holdout,0.26621380646661635,,Info
+auc,repro_original,oot1,0.6877321444828342,,Info
+gini,repro_original,oot1,0.3754642889656683,Green >= 0.4; Amber >= 0.3,Amber
+ks,repro_original,oot1,0.2755735624936755,Green >= 0.3; Amber >= 0.2,Amber
+brier,repro_original,oot1,0.04891825075895237,,Info
+brier_skill,repro_original,oot1,-0.2025260895112968,,Info
+decile_rank_inversions,repro_original,oot1,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,repro_original,oot1,0.2739987823149351,,Info
+gini_ci_lo,repro_original,oot1,0.361084317961615,,Info
+gini_ci_hi,repro_original,oot1,0.40522742757911906,,Info
+auc,repro_original,oot2,0.6850956901651635,,Info
+gini,repro_original,oot2,0.37019138033032695,Green >= 0.4; Amber >= 0.3,Amber
+ks,repro_original,oot2,0.2700260596199391,Green >= 0.3; Amber >= 0.2,Amber
+brier,repro_original,oot2,0.045357489790684116,,Info
+brier_skill,repro_original,oot2,-0.02192563728572683,,Info
+decile_rank_inversions,repro_original,oot2,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,repro_original,oot2,0.26821782180274145,,Info
+gini_ci_lo,repro_original,oot2,0.35331671419044314,,Info
+gini_ci_hi,repro_original,oot2,0.3982121817595662,,Info
+auc,repro_original,complete36,0.6543843829011173,,Info
+gini,repro_original,complete36,0.30876876580223467,Green >= 0.4; Amber >= 0.3,Amber
+ks,repro_original,complete36,0.22672183265860485,Green >= 0.3; Amber >= 0.2,Amber
+brier,repro_original,complete36,0.10677733089549213,,Info
+brier_skill,repro_original,complete36,0.032262899171064174,,Info
+decile_rank_inversions,repro_original,complete36,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,repro_original,complete36,0.22272832768192197,,Info
+auc,repro_original,repro_test,0.701751496507076,,Info
+gini,repro_original,repro_test,0.40350299301415204,Green >= 0.4; Amber >= 0.3,Green
+ks,repro_original,repro_test,0.2966241552555451,Green >= 0.3; Amber >= 0.2,Amber
+brier,repro_original,repro_test,0.09217678025570596,,Info
+brier_skill,repro_original,repro_test,0.05293081745327555,,Info
+decile_rank_inversions,repro_original,repro_test,0.0,Green <= 0; Amber <= 2,Green
+ks_decile,repro_original,repro_test,0.2954839970803803,,Info
+mean_pd,repro_original,repro_test,0.10927965650614344,,Info
+obs_rate,repro_original,repro_test,0.10926793699132505,,Info
+central_tendency,repro_original,repro_test,0.0001072548374306733,Green <= 0.1; Amber <= 0.25,Green
+central_tendency_signed,repro_original,repro_test,0.0001072548374305704,,Info
+hl_stat,repro_original,repro_test,19.112520007593844,,Info
+hl_p,repro_original,repro_test,0.03885656460765859,Green >= 0.05; Amber >= 0.01,Amber
+cal_slope,repro_original,repro_test,1.0341537583152043,"Green in (0.9, 1.1); Amber in (0.8, 1.2)",Green
+cal_intercept,repro_original,repro_test,0.0648687289261113,,Info
+cal_slope_ci_lo,repro_original,repro_test,1.0026510465335463,,Info
+cal_slope_ci_hi,repro_original,repro_test,1.0656564700968623,,Info
+gini_decay,sc_full,oot1,0.05078148228968178,Green <= 0.1; Amber <= 0.2,Green
+gini_decay,sc_full,oot2,0.07070583584548706,Green <= 0.1; Amber <= 0.2,Green
+gini_decay,sc_indep,oot1,0.08556492503103183,Green <= 0.1; Amber <= 0.2,Green
+gini_decay,sc_indep,oot2,0.17462067277481727,Green <= 0.1; Amber <= 0.2,Amber
+gini_decay,xgb,oot1,0.05426705061569074,Green <= 0.1; Amber <= 0.2,Green
+gini_decay,xgb,oot2,0.05777834541440728,Green <= 0.1; Amber <= 0.2,Green
+gini_decay,lgbm,oot1,0.04674397935391799,Green <= 0.1; Amber <= 0.2,Green
+gini_decay,lgbm,oot2,0.04636527495570856,Green <= 0.1; Amber <= 0.2,Green
+gini_decay,repro_original,oot1,-0.062402542237390696,Green <= 0.1; Amber <= 0.2,Green
+gini_decay,repro_original,oot2,-0.04748247739019992,Green <= 0.1; Amber <= 0.2,Green
+psi_score,sc_full,dev_holdout,0.0006543486523029034,Green <= 0.1; Amber <= 0.25,Green
+psi_score,sc_full,oot1,0.0026497455709726127,Green <= 0.1; Amber <= 0.25,Green
+psi_score,sc_full,oot2,0.006749108527543566,Green <= 0.1; Amber <= 0.25,Green
+psi_score,sc_indep,dev_holdout,0.0006708472977954239,Green <= 0.1; Amber <= 0.25,Green
+psi_score,sc_indep,oot1,0.009799408460815643,Green <= 0.1; Amber <= 0.25,Green
+psi_score,sc_indep,oot2,0.009474744384919458,Green <= 0.1; Amber <= 0.25,Green
+psi_score,xgb,dev_holdout,0.0006890786362487261,Green <= 0.1; Amber <= 0.25,Green
+psi_score,xgb,oot1,0.014885590637512599,Green <= 0.1; Amber <= 0.25,Green
+psi_score,xgb,oot2,0.007806012240057071,Green <= 0.1; Amber <= 0.25,Green
+psi_score,lgbm,dev_holdout,0.000637731818810119,Green <= 0.1; Amber <= 0.25,Green
+psi_score,lgbm,oot1,0.010007300839674313,Green <= 0.1; Amber <= 0.25,Green
+psi_score,lgbm,oot2,0.015160257645482922,Green <= 0.1; Amber <= 0.25,Green
+psi_score,repro_original,dev_holdout,0.0009489236598516663,Green <= 0.1; Amber <= 0.25,Green
+psi_score,repro_original,oot1,0.08219022980251736,Green <= 0.1; Amber <= 0.25,Green
+psi_score,repro_original,oot2,0.911695697719471,Green <= 0.1; Amber <= 0.25,Red
+csi_max,all,oot1,0.4751932718635465,Green <= 0.1; Amber <= 0.25,Red
+csi_n_red,all,oot1,1.0,,Info
+csi_max,all,oot2,1.577533336531234,Green <= 0.1; Amber <= 0.25,Red
+csi_n_red,all,oot2,2.0,,Info
+psi_quarter_max_oot,lgbm,oot,0.03144303860767502,Green <= 0.1; Amber <= 0.25,Green
+psi_quarter_max_oot,repro_original,oot,1.808356708979073,Green <= 0.1; Amber <= 0.25,Red
+psi_quarter_max_oot,sc_full,oot,0.01243954046776995,Green <= 0.1; Amber <= 0.25,Green
+psi_quarter_max_oot,sc_indep,oot,0.013528672550701377,Green <= 0.1; Amber <= 0.25,Green
+psi_quarter_max_oot,xgb,oot,0.03412411040542779,Green <= 0.1; Amber <= 0.25,Green
+benchmark_auc_sub_grade_rank,benchmark,dev_holdout,0.6368252412817691,,Info
+benchmark_auc_grade_rank,benchmark,dev_holdout,0.6306087161830507,,Info
+benchmark_auc_int_rate,benchmark,dev_holdout,0.6366307589129986,,Info
+benchmark_auc_sub_grade_rank,benchmark,oot1,0.6735563064275022,,Info
+benchmark_auc_grade_rank,benchmark,oot1,0.6656996277565862,,Info
+benchmark_auc_int_rate,benchmark,oot1,0.6735004296417982,,Info
+benchmark_auc_sub_grade_rank,benchmark,oot2,0.6830128633022385,,Info
+benchmark_auc_grade_rank,benchmark,oot2,0.6762667786436379,,Info
+benchmark_auc_int_rate,benchmark,oot2,0.6808351846263127,,Info
+benchmark_sc_indep_vs_sub_grade_dauc,sc_indep,oot1,-0.026301573683653046,Green: beats sub_grade with DeLong p < 0.05; Amber: ahead but not significant; Red: does not beat,Red
+benchmark_sc_indep_vs_sub_grade_delong_p,sc_indep,oot1,1.010968174084899e-13,,Info
+benchmark_sc_full_vs_sub_grade_dauc,sc_full,oot1,0.0029278854956380496,Green: beats sub_grade with DeLong p < 0.05; Amber: ahead but not significant; Red: does not beat,Amber
+benchmark_sc_full_vs_sub_grade_delong_p,sc_full,oot1,0.2569888635864802,,Info
+incremental_gini_sc_indep_over_sub_grade,sc_indep,oot1,-0.0034389375613199658,,Info
+incremental_gini_delong_p,sc_indep,oot1,0.4971056666052619,,Info
+challenger_dauc_vs_sc_full,sc_indep,oot1,-0.029229459179291095,,Info
+challenger_delong_p_vs_sc_full,sc_indep,oot1,1.5373354382859732e-75,,Info
+challenger_dauc_vs_sc_full,xgb,oot1,0.011123959188936383,,Info
+challenger_delong_p_vs_sc_full,xgb,oot1,2.5604514412532404e-13,,Info
+challenger_dauc_vs_sc_full,lgbm,oot1,0.006707831732033487,,Info
+challenger_delong_p_vs_sc_full,lgbm,oot1,6.523700639519203e-07,,Info
+challenger_dauc_vs_sc_full,repro_original,oot1,0.011247952559693797,,Info
+challenger_delong_p_vs_sc_full,repro_original,oot1,1.1121767791431874e-08,,Info
+benchmark_sc_indep_vs_sub_grade_dauc,sc_indep,oot2,-0.05009909438653182,Green: beats sub_grade with DeLong p < 0.05; Amber: ahead but not significant; Red: does not beat,Red
+benchmark_sc_indep_vs_sub_grade_delong_p,sc_indep,oot2,1.942429265308435e-75,,Info
+benchmark_sc_full_vs_sub_grade_dauc,sc_full,oot2,-0.010233122326145927,Green: beats sub_grade with DeLong p < 0.05; Amber: ahead but not significant; Red: does not beat,Red
+benchmark_sc_full_vs_sub_grade_delong_p,sc_full,oot2,4.72572025058278e-07,,Info
+incremental_gini_sc_indep_over_sub_grade,sc_indep,oot2,-0.03219465969175461,,Info
+incremental_gini_delong_p,sc_indep,oot2,1.0316726438467965e-16,,Info
+challenger_dauc_vs_sc_full,sc_indep,oot2,-0.03986597206038589,,Info
+challenger_delong_p_vs_sc_full,sc_indep,oot2,6.381635071269377e-225,,Info
+challenger_dauc_vs_sc_full,xgb,oot2,0.01413186305509262,,Info
+challenger_delong_p_vs_sc_full,xgb,oot2,3.50454831857267e-33,,Info
+challenger_dauc_vs_sc_full,lgbm,oot2,0.01048506021583151,,Info
+challenger_delong_p_vs_sc_full,lgbm,oot2,1.0955352166855377e-23,,Info
+challenger_dauc_vs_sc_full,sc_full_recal,oot2,0.0,,Info
+challenger_delong_p_vs_sc_full,sc_full_recal,oot2,,,Info
+challenger_dauc_vs_sc_full,repro_original,oot2,0.012315949189070863,,Info
+challenger_delong_p_vs_sc_full,repro_original,oot2,1.4767492858811458e-14,,Info

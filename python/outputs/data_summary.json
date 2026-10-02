@@ -1,0 +1,14 @@
+{
+ "data_source": "LendingClub public 2007-2014",
+ "n_loans": 466285,
+ "quick": false,
+ "split_rows": {
+  "dev_train": 74522,
+  "dev_holdout": 18631,
+  "oot1": 134755,
+  "oot2": 225321,
+  "complete36": 72566,
+  "repro_train": 373028,
+  "repro_test": 93257
+ }
+}

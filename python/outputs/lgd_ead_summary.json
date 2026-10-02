@@ -1,0 +1,72 @@
+{
+  "data_source": "LendingClub public 2007-2014",
+  "reconciliation": {
+    "n_recomputed": 43236,
+    "n_reference": 43236,
+    "n_matched": 43236,
+    "n_only_recomputed": 0,
+    "n_only_reference": 0,
+    "max_abs_diff_recovery_rate": 1.1102230246251565e-16,
+    "max_abs_diff_ccf": 1.1102230246251565e-16,
+    "mean_recovery_rate": 0.06076979543584096,
+    "mean_recovery_rate_ref": 0.06076979543584095,
+    "mean_ccf": 0.735951798580674,
+    "mean_ccf_ref": 0.735951798580674
+  },
+  "n_defaults": {
+    "dev_le_2012": 14419,
+    "oot_2013": 14836,
+    "report_2014": 13981
+  },
+  "n_fit": {
+    "stage1": 14419,
+    "stage2": 10687,
+    "ead": 14419
+  },
+  "breusch_pagan": {
+    "stage2": {
+      "lm": 138.07456023426025,
+      "lm_p": 1.818598687956513e-15,
+      "f": 4.498805383441091,
+      "f_p": 1.3927486912571396e-15
+    },
+    "ead": {
+      "lm": 738.0117576146366,
+      "lm_p": 2.866092344434412e-135,
+      "f": 25.035389984820647,
+      "f_p": 3.694049912712079e-139
+    }
+  },
+  "stage1_auc": {
+    "dev_le_2012": 0.6124813972480714,
+    "oot_2013": 0.571602580823791,
+    "report_2014": 0.5480777536719521
+  },
+  "lgd_expected_r2": {
+    "dev_le_2012": 0.018148430179645514,
+    "oot_2013": 0.00884301374508234,
+    "report_2014": 0.003682087831714309
+  },
+  "lgd_hard_r2": {
+    "dev_le_2012": -0.024993663011600775,
+    "oot_2013": -0.01161775655969799,
+    "report_2014": -0.08415935336496849
+  },
+  "lgd_expected_corr": {
+    "dev_le_2012": 0.13472179586742894,
+    "oot_2013": 0.14435050542337274,
+    "report_2014": 0.0981914091433139
+  },
+  "ccf_r2": {
+    "dev_le_2012": 0.12645149879800133,
+    "oot_2013": 0.09086964254465213,
+    "report_2014": -2.579888338019613
+  },
+  "ccf_corr": {
+    "dev_le_2012": 0.35560019516024094,
+    "oot_2013": 0.46450411958270876,
+    "report_2014": 0.4569014094533365
+  },
+  "design_note": "grade, addr_state and initial_list_status excluded; numerics winsorized and z-scored on development defaults",
+  "loss_basis_note": "recovery rate is recoveries/funded and EAD is CCF*funded, so PD*LGD*EAD slightly overstates loss/EAD basis (original definition kept)"
+}
